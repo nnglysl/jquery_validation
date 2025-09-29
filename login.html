@@ -28,6 +28,7 @@
             <button type="submit">Login</button>
       </div>
         </form>
+        <p>Don't have an account? <a href="register.html">Register here</a></p>
     </div>
         <script>
       $(document).ready(function () {
@@ -60,7 +61,7 @@
             error.appendTo(element.closest(".input-box"));
           },
           submitHandler: function (form) {
-            const username = "glysel";
+            const username = "admin";
             const password = "12345";
 
             const uname = $("#username").val();

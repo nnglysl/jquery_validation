@@ -102,6 +102,25 @@ button:hover {
   background: #bae3ff;
 }
 
+.login-container p {
+  margin-top: 15px;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+.login-container p a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.login-container p a:hover {
+  color: #005999;
+  text-decoration: underline;
+}
+
 @media (max-width: 768px) {
   .login-container {
     padding: 25px 15px;
